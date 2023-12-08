@@ -1,0 +1,164 @@
+# Байт-скомпилированные / оптимизированные / DLL-файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C расширения
+*.so
+
+# Распространение / упаковка
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Обычно эти файлы записываются скриптом на python из шаблона
+#  перед тем, как PyInstaller создаст исполняемый файл, чтобы ввести в него дату / другую информацию.
+*.manifest
+*.spec
+
+# Журналы установки
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Отчеты о модульных тестах/ охвате
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Переводы
+*.mo
+*.pot
+
+# Django материал:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask материал:
+instance/
+.webassets-cache
+
+# Scrapy материал:
+.scrapy
+
+# Документация Sphinx
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Блокнот
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   Для библиотеки или пакета вы можете проигнорировать эти файлы,
+#   поскольку код предназначен для запуска в нескольких средах;
+#   в противном случае проверьте их в:
+# .python-version
+
+# pipenv
+#   Согласно pypa/pipenv#598, рекомендуется включить Pipfile. Блокировка в системе управления версиями.
+#   Однако в случае совместной работы, при наличии зависимостей от конкретной платформы или зависимостей,
+#   не имеющих кроссплатформенной поддержки, pipenv может устанавливать зависимости, которые не работают,
+#   или не устанавливать все необходимые зависимости.
+#Pipfile.lock
+
+# poetry
+#   Аналогично Pipfile.lock, обычно рекомендуется включать poetry. Блокировка в системе управления версиями.
+#   Это особенно рекомендуется для бинарных пакетов для обеспечения воспроизводимости и чаще игнорируется
+#   для библиотек.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Аналогично Pipfile.lock, обычно рекомендуется включать pdm.lock в систему управления версиями.
+#pdm.lock
+#   pdm хранит конфигурации для всего проекта в .pdm.toml, но рекомендуется не включать его
+#   в систему управления версиями.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery материал
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath проанализированные файлы
+*.sage.py
+
+# Окружающая среда
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Настройки проекта Spyder
+.spyderproject
+.spyproject
+
+# Настройки проекта Rope
+.ropeproject
+
+# документация mkdocs
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre средство проверки типа
+.pyre/
+
+# pytype анализатор статического типа
+.pytype/
+
+# Cython символы отладки
+cython_debug/
+
+# PyCharm
+#  Шаблон, специфичный для JetBrains, хранится в отдельном файле JetBrains.gitignore, который можно
+# найти по адресу https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+# и может быть добавлен в глобальный gitignore или объединен с этим файлом. Для более подробной информации
+# опция (не рекомендуется) вы можете раскомментировать следующее, чтобы игнорировать всю папку idea целиком.
+.idea/
+
+.git/
+.image/

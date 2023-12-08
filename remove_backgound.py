@@ -1,9 +1,15 @@
 from rembg import remove
 from PIL import Image
+import easygui
 
-input_path = 'image/27277-EN000.jpg'
-output_path = 'image/27277-EN000.png'
+print("Ожидайте...")
+input_path = easygui.fileopenbox("Выберите изображение для обработки.")
+Output_path = easygui.filesavebox("Куда бы Вы хотели сохранить обработанное изображение?")
 
-input = Image.open(input_path)
-output = remove(input)
-output.save(output_path)
+my_img = Image.open(input_path)
+print("Обрабатываю...")
+rem = remove(my_img)
+
+save = rem.save(Output_path)
+print("Успешное завершение работы. Проверьте указанную папку!")
+
